@@ -298,6 +298,8 @@ class VerificationError implements ModelInterface, ArrayAccess, \JsonSerializabl
     public const TYPE_DATA_MISSING = 'dataMissing';
     public const TYPE_INVALID_INPUT = 'invalidInput';
     public const TYPE_PENDING_STATUS = 'pendingStatus';
+    public const TYPE_DATA_REVIEW = 'dataReview';
+
 
     /**
      * Gets allowable values of the enum
@@ -370,6 +372,7 @@ class VerificationError implements ModelInterface, ArrayAccess, \JsonSerializabl
             self::TYPE_DATA_MISSING,
             self::TYPE_INVALID_INPUT,
             self::TYPE_PENDING_STATUS,
+            self::TYPE_DATA_REVIEW,
         ];
     }
     /**
